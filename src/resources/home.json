@@ -1,0 +1,59 @@
+[
+    {
+        "type": "div",
+        "content": [
+            {
+                "id": "title",
+                "type": "h4",
+                "className": "pink-heading",
+                "content": "THIS IS TITLE"
+            },
+            {
+                "id": "text",
+                "type": "p",
+                "content": "LOREM IPSUM DOLLAR"    
+            },
+            {
+                "id": "btn-1",
+                "type": "CoolButton",
+                "content": "",
+                "props": {
+                    "changes": "text",
+                    "text": "Click me 1"
+                }
+            },
+            {
+                "type": "CoolButton",
+                "content": "",
+                "props": {
+                    "text": "Click me 2"
+                }
+            },
+            {
+                "type": "CoolButton",
+                "content": "",
+                "props": {
+                    "text": "Click me 3"
+                }
+            },
+            {
+                "type": "Group",
+                "content": "",
+                "props": {
+                    "config": [
+                        {
+                            "type": "CoolButton",
+                            "content": "",
+                            "behaviorName": "disableForSeconds",
+                            "props": {
+                                "text": "Click me 4",
+                                "disabledSeconds": 3
+                            }
+                        }
+
+                    ]
+                }
+            }
+        ]
+    }
+]

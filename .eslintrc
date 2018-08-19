@@ -1,0 +1,29 @@
+{
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "rules": {
+        "comma-dangle": 0,
+        "quotes": [1, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+        "max-len": [0],
+        "no-console": 0,
+        "no-param-reassign": 0
+    },
+    "globals": { 
+        "ENV": true 
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "templateStrings": true,
+            "experimentalObjectRestSpread": true
+        }
+    }
+}
